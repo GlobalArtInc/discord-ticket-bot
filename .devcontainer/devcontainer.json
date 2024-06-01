@@ -1,0 +1,28 @@
+{
+	"name": "TicketBot",
+
+	"build": {
+    "dockerfile": "Dockerfile"
+  },
+
+	"customizations": {
+		"vscode": {
+			"settings": {},
+			"extensions": [
+				"dbaeumer.vscode-eslint",
+				"rvest.vs-code-prettier-eslint",
+				"globalart.discord-vscode-rpc",
+				"eamodio.gitlens"
+			]
+		}
+	},
+
+	"portsAttributes": {
+		"3000": {
+			"label": "Port forwarding",
+			"onAutoForward": "notify"
+		}
+	},
+
+	"postCreateCommand": "cd ./app && pnpm install"
+}
