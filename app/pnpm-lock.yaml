@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@globalart/nestcord':
-        specifier: ^2.3.0
-        version: 2.3.0(@nestjs/common@10.3.8(reflect-metadata@0.2.2)(rxjs@7.8.2))(@nestjs/core@10.3.8)(discord.js@14.21.0)(reflect-metadata@0.2.2)(rxjs@7.8.2)
+        specifier: ^2.3.1
+        version: 2.3.1(@nestjs/common@10.3.8(reflect-metadata@0.2.2)(rxjs@7.8.2))(@nestjs/core@10.3.8)(discord.js@14.21.0)(reflect-metadata@0.2.2)(rxjs@7.8.2)
       '@nestjs/common':
         specifier: ^10.3.8
         version: 10.3.8(reflect-metadata@0.2.2)(rxjs@7.8.2)
@@ -222,8 +222,8 @@ packages:
     resolution: {integrity: sha512-4SaFZCNfJqvk/kenHpI8xvN42DMaoycy4PzKc5otHxRswww1kAt82OlBuwRVLofCACCTZEcla2Ydxv8scMXaTg==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
 
-  '@globalart/nestcord@2.3.0':
-    resolution: {integrity: sha512-PoqovMCSMHm7B6O7CzIKQL/PpAuNZ3bF9GgKWk+HuJ1iIPNqVnZNjks9J+GC8HGeks2nAH9+ti811iliWwEJhw==}
+  '@globalart/nestcord@2.3.1':
+    resolution: {integrity: sha512-umCRyiW0Mxd8RI+6WZpuL+A9er5Ga4xYLc2h++y3OZSNAccL9afu8ABWe8jwBtEAmaJHZY9poDbV5HpVzkg0Og==}
     engines: {node: '>=16.6.0', npm: '>=7.0.0'}
     peerDependencies:
       '@nestjs/common': '>=10.2.0'
@@ -2595,7 +2595,7 @@ snapshots:
       '@eslint/core': 0.15.0
       levn: 0.4.1
 
-  '@globalart/nestcord@2.3.0(@nestjs/common@10.3.8(reflect-metadata@0.2.2)(rxjs@7.8.2))(@nestjs/core@10.3.8)(discord.js@14.21.0)(reflect-metadata@0.2.2)(rxjs@7.8.2)':
+  '@globalart/nestcord@2.3.1(@nestjs/common@10.3.8(reflect-metadata@0.2.2)(rxjs@7.8.2))(@nestjs/core@10.3.8)(discord.js@14.21.0)(reflect-metadata@0.2.2)(rxjs@7.8.2)':
     dependencies:
       '@globalart/text-utils': 1.0.4
       '@nestjs/axios': 4.0.0(@nestjs/common@10.3.8(reflect-metadata@0.2.2)(rxjs@7.8.2))(axios@1.10.0)(rxjs@7.8.2)
