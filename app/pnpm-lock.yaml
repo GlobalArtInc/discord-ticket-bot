@@ -25,7 +25,7 @@ importers:
         version: 10.4.22(@nestjs/common@10.3.8(reflect-metadata@0.2.2)(rxjs@7.8.2))(@nestjs/core@10.3.8)
       '@nestjs/typeorm':
         specifier: ^11.0.1
-        version: 11.0.1(@nestjs/common@10.3.8(reflect-metadata@0.2.2)(rxjs@7.8.2))(@nestjs/core@10.3.8)(reflect-metadata@0.2.2)(rxjs@7.8.2)(typeorm@0.3.29(pg@8.20.0)(ts-node@10.9.2(@types/node@25.9.0)(typescript@6.0.3)))
+        version: 11.0.1(@nestjs/common@10.3.8(reflect-metadata@0.2.2)(rxjs@7.8.2))(@nestjs/core@10.3.8)(reflect-metadata@0.2.2)(rxjs@7.8.2)(typeorm@0.3.30(pg@8.20.0)(ts-node@10.9.2(@types/node@25.9.0)(typescript@6.0.3)))
       discord.js:
         specifier: ^14.26.4
         version: 14.26.4
@@ -42,11 +42,11 @@ importers:
         specifier: ^7.8.2
         version: 7.8.2
       typeorm:
-        specifier: ^0.3.29
-        version: 0.3.29(pg@8.20.0)(ts-node@10.9.2(@types/node@25.9.0)(typescript@6.0.3))
+        specifier: ^0.3.30
+        version: 0.3.30(pg@8.20.0)(ts-node@10.9.2(@types/node@25.9.0)(typescript@6.0.3))
       typeorm-naming-strategies:
         specifier: ^4.1.0
-        version: 4.1.0(typeorm@0.3.29(pg@8.20.0)(ts-node@10.9.2(@types/node@25.9.0)(typescript@6.0.3)))
+        version: 4.1.0(typeorm@0.3.30(pg@8.20.0)(ts-node@10.9.2(@types/node@25.9.0)(typescript@6.0.3)))
     devDependencies:
       '@nestjs/cli':
         specifier: ^11.0.21
@@ -846,6 +846,10 @@ packages:
 
   ansis@4.2.0:
     resolution: {integrity: sha512-HqZ5rWlFjGiV0tDm3UxxgNRqsOTniqoKZu0pIAfh7TZQMGuZK+hH0drySty0si0QXj1ieop4+SkSfPZBPPkHig==}
+    engines: {node: '>=14'}
+
+  ansis@4.3.0:
+    resolution: {integrity: sha512-44mvgtPvohuU/70DdY5Oz2AIrLJ9k6/5x4KmoSvPwO+5Moijo0+N9D0fKbbYZQWP1hNm5CpOf+E01jhxG/r8xg==}
     engines: {node: '>=14'}
 
   app-root-path@3.1.0:
@@ -2239,8 +2243,8 @@ packages:
     peerDependencies:
       typeorm: ^0.2.0 || ^0.3.0
 
-  typeorm@0.3.29:
-    resolution: {integrity: sha512-wwPEX/df4l72gCmOsrs0otJZYLGA9lLQkUZCkukbsymEycV4zXv2KM7wU7v2r8L01TaCgY9ApSSqHQWBOUhEoQ==}
+  typeorm@0.3.30:
+    resolution: {integrity: sha512-8T35PzjefOdqc2ZR9mwLQj0pUGp6lQhMbK2EvVMwJVJWlaoHm0v/Q6dThNOZkFchD+0yMg8gwjKM28ePiLSXSQ==}
     engines: {node: '>=16.13.0'}
     hasBin: true
     peerDependencies:
@@ -2913,13 +2917,13 @@ snapshots:
     optionalDependencies:
       '@nestjs/platform-express': 10.4.22(@nestjs/common@10.3.8(reflect-metadata@0.2.2)(rxjs@7.8.2))(@nestjs/core@10.3.8)
 
-  '@nestjs/typeorm@11.0.1(@nestjs/common@10.3.8(reflect-metadata@0.2.2)(rxjs@7.8.2))(@nestjs/core@10.3.8)(reflect-metadata@0.2.2)(rxjs@7.8.2)(typeorm@0.3.29(pg@8.20.0)(ts-node@10.9.2(@types/node@25.9.0)(typescript@6.0.3)))':
+  '@nestjs/typeorm@11.0.1(@nestjs/common@10.3.8(reflect-metadata@0.2.2)(rxjs@7.8.2))(@nestjs/core@10.3.8)(reflect-metadata@0.2.2)(rxjs@7.8.2)(typeorm@0.3.30(pg@8.20.0)(ts-node@10.9.2(@types/node@25.9.0)(typescript@6.0.3)))':
     dependencies:
       '@nestjs/common': 10.3.8(reflect-metadata@0.2.2)(rxjs@7.8.2)
       '@nestjs/core': 10.3.8(@nestjs/common@10.3.8(reflect-metadata@0.2.2)(rxjs@7.8.2))(@nestjs/platform-express@10.4.22)(reflect-metadata@0.2.2)(rxjs@7.8.2)
       reflect-metadata: 0.2.2
       rxjs: 7.8.2
-      typeorm: 0.3.29(pg@8.20.0)(ts-node@10.9.2(@types/node@25.9.0)(typescript@6.0.3))
+      typeorm: 0.3.30(pg@8.20.0)(ts-node@10.9.2(@types/node@25.9.0)(typescript@6.0.3))
 
   '@noble/hashes@1.8.0': {}
 
@@ -3323,6 +3327,8 @@ snapshots:
   ansi-styles@6.2.3: {}
 
   ansis@4.2.0: {}
+
+  ansis@4.3.0: {}
 
   app-root-path@3.1.0: {}
 
@@ -4694,14 +4700,14 @@ snapshots:
 
   typedarray@0.0.6: {}
 
-  typeorm-naming-strategies@4.1.0(typeorm@0.3.29(pg@8.20.0)(ts-node@10.9.2(@types/node@25.9.0)(typescript@6.0.3))):
+  typeorm-naming-strategies@4.1.0(typeorm@0.3.30(pg@8.20.0)(ts-node@10.9.2(@types/node@25.9.0)(typescript@6.0.3))):
     dependencies:
-      typeorm: 0.3.29(pg@8.20.0)(ts-node@10.9.2(@types/node@25.9.0)(typescript@6.0.3))
+      typeorm: 0.3.30(pg@8.20.0)(ts-node@10.9.2(@types/node@25.9.0)(typescript@6.0.3))
 
-  typeorm@0.3.29(pg@8.20.0)(ts-node@10.9.2(@types/node@25.9.0)(typescript@6.0.3)):
+  typeorm@0.3.30(pg@8.20.0)(ts-node@10.9.2(@types/node@25.9.0)(typescript@6.0.3)):
     dependencies:
       '@sqltools/formatter': 1.2.5
-      ansis: 4.2.0
+      ansis: 4.3.0
       app-root-path: 3.1.0
       buffer: 6.0.3
       dayjs: 1.11.20
