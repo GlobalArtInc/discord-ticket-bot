@@ -34,7 +34,7 @@
     "typeorm-naming-strategies": "^4.1.0"
   },
   "devDependencies": {
-    "@nestjs/cli": "^12.0.3",
+    "@nestjs/cli": "^12.0.5",
     "@nestjs/schematics": "^12.0.4",
     "@nestjs/testing": "^10.3.8",
     "@types/express": "^5.0.6",
