@@ -27,7 +27,7 @@
     "@nestjs/typeorm": "^12.0.2",
     "discord.js": "^14.27.0",
     "moment": "^2.31.0",
-    "pg": "^8.23.0",
+    "pg": "^8.23.1",
     "reflect-metadata": "^0.2.2",
     "rxjs": "^7.8.2",
     "typeorm": "^0.3.30",
